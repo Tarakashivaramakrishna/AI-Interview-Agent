@@ -66,7 +66,7 @@ const Pricing = () => {
       amount,
       credits:plan.credits
      },{withCredentials:true})
-     const options={
+     const options={ 
       key:import.meta.env.VITE_RAZORPAY_KEY_ID,
       amount:response.data.amount,
       currency:"INR",
